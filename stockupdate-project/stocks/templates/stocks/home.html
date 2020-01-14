@@ -1,1 +1,7 @@
 Home HTML
+<h3>All Stocks</h3>
+{% for stock in stocks.all %}
+
+{{stock.summary}}
+
+{% endfor %}
